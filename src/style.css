@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(249, 241, 230);
+}
+
+.navbar {
+    background-color: rgb(44, 91, 157);
+}
+
+.kategorie-pille {
+    --bs-badge-bg: rgb(44, 91, 157);
+    background-color: var(--bs-badge-bg) !important;
+}
+
+.btn-delete-icon {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.btn-delete-icon:hover {
+    color: #dc3545;
+    transform: scale(1.1);
+}
+
+.btn-delete-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
